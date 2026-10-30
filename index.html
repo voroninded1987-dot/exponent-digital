@@ -937,4 +937,17 @@ t_onFuncLoad('t450_appearMenu',function() {t450_appearMenu('4565207101');window.
     border-radius: 30px 30px 0px 0px;
 }
 </style> <!-- nominify end --> </div> </div> </div> </div> <div id="rec4565207601" class="r t-rec" style=" " data-animationappear="off" data-record-type="875"> <!-- t875 --> <script>t_onReady(function() {t_onFuncLoad('t875_init',function() {t875_init('4565207601');});});</script> </div> </div> <!--/allrecords--> <!-- Stat --> <script type="text/javascript">if(!window.mainTracker) {window.mainTracker='tilda';}
-window.tildastatcookie='no';setTimeout(function(){(function(d,w,k,o,g) {var n=d.getElementsByTagName(o)[0],s=d.createElement(o),f=function(){n.parentNode.insertBefore(s,n);};s.type="text/javascript";s.async=true;s.key=k;s.id="tildastatscript";s.src=g;if(w.opera=="[object Opera]") {d.addEventListener("DOMContentLoaded",f,false);} else {f();}})(document,window,'6ce981017b7031a9bd096546206b7a3d','script','assets/static.tildacdn.pub/js/tilda-stat-1.0.min.js');},2000);</script> </body> </html>
+window.tildastatcookie='no';setTimeout(function(){(function(d,w,k,o,g) {var n=d.getElementsByTagName(o)[0],s=d.createElement(o),f=function(){n.parentNode.insertBefore(s,n);};s.type="text/javascript";s.async=true;s.key=k;s.id="tildastatscript";s.src=g;if(w.opera=="[object Opera]") {d.addEventListener("DOMContentLoaded",f,false);} else {f();}})(document,window,'6ce981017b7031a9bd096546206b7a3d','script','assets/static.tildacdn.pub/js/tilda-stat-1.0.min.js');},2000);</script> <script>
+(function(){
+  function fallback(e){
+    var form = e.target && e.target.closest ? (e.target.closest('form') || e.target) : null;
+    if(!form) return;
+    var box = form.querySelector('.t-form__errorbox-wrapper');
+    if(!box) return;
+    box.innerHTML = '<div style="text-align:center;font-size:16px;line-height:1.5;padding:10px 4px;">Сервис приёма заявок временно недоступен.<br>Напишите нам напрямую — ответим в течение 5 минут.</div><div style="text-align:center;padding:6px 0 12px;"><a href="https://t.me/DanielVel1029" target="_blank" rel="noopener" style="display:inline-block;background:#db4e49;color:#ffffff;text-decoration:none;padding:12px 22px;border-radius:8px;font-weight:600;font-size:15px;">Написать в Telegram</a></div>';
+    box.style.display='block';
+  }
+  document.addEventListener('tildaform:aftererror', fallback, true);
+})();
+</script>
+</body> </html>

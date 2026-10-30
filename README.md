@@ -1,4 +1,8 @@
-# Exponent digital — локальная копия
+# Exponent digital — лендинг
+
+Опубликовано: **https://voroninded1987-dot.github.io/exponent-digital/**
+
+Репозиторий: https://github.com/voroninded1987-dot/exponent-digital
 
 Точная локальная копия страницы **https://bestkeys.tilda.ws/exponent**.
 

@@ -39,3 +39,4 @@ python3 -m http.server 8000
 - Ссылки: Telegram `t.me/DanielVel1029`, новый MAX-профиль.
 - Логотип: зелёная «EX» заменена на новый логотип (`assets/custom/logo.png`) в шапке и подвале.
 - Плашка «Made on Tilda» удалена.
+- Favicon Tilda (`tildafavicon.ico`) удалён. Вместо него — иконка «Ex» шрифтом логотипа (Gilroy Bold) белым на тёмно-красном `#8f1d19`: `assets/custom/favicon/` (SVG, PNG 16/32/48/96/180/192/512, ICO, webmanifest), добавлен `theme-color`.
